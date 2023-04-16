@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inventory Mangement System</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/4575977ef0.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <div id="use-desktop-popup">
+        <div class="popup-content">
+            <h2> Please use a larger screen for the best experience</h2>
+        </div>
+    </div>
+
+    <body>
+        <div class="whole-page-container">
+            
+            <div class="nav-container">
+                <div class="nav-bar"> 
+                    <div class="seperator-div"> </div>
+                    <div class="nav-header">
+                        <h1> I.M.S</h1>
+                        <i class="fa-solid fa-warehouse" class="logo"></i>
+                    </div>
+
+                    
+
+                    <div class="nav-links"> 
+                            <a href="index.html" class="nav-link"> Category One </a>
+                            <a href="catTwo.html" class="nav-link"> Category Two </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="delete-all-btn" id="delete-all-btn-2"> Delete all items </button>
+
+<!-- /////////////////////////////// Inventory Input Section /////////////////////////////// -->
+
+            <div class="body-container">
+                <h1 class="category-title"> Category Two</h1>
+                <div class="input-section">
+                    <div class="item-container-input">
+                        <div class="item-top-input">
+                            <form> 
+                                <input type="text" maxlength="50" class="item-name-input" id="item-name-input-2" placeholder="Item Name" >
+                            </form>
+                            <form> 
+                                <input type="number" class="count-input" id="count-input-2" placeholder="0" max="999" min="1" >  
+                            </form>
+                            
+                            <button class="submit-btn" id="submit-btn-2"> Submit </button>
+                            
+                        </div>
+                        <div class="item-bottom-input">
+                            <form>
+                                <input type="text" class="notes-input" id="notes-input-2" placeholder="Notes">
+                            </form>
+                            
+                            <div class="man-input"> 
+                                <p class="man-title"> Manufacturer: </p>
+                                <form> 
+                                    <input type="text" class="man-input-bar" id="man-input-2" placeholder="Manufacturer" >
+                                </form>
+                            </div>
+                            <div class="exp-input">
+                                <p class="exp-title"> Expiration: </p>
+                                <form>
+                                    <input type="date" id="date-input-2" class="date-input"> 
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-section" id="inventory-section-2">
+                    <!-- ////////////// this is where the inventory goes //////////// -->
+                </div>
+            </div>
+            
+        </div>
+    </body>
+
+    <script src="indexTwo.js"></script>
+    
+
+</html>

@@ -1,0 +1,9 @@
+# Inventory mangement system
+#### Video Demo:  <URL HERE>
+#### Description:
+What I built was a simple system for managing inventory. The reason I decided to build this project was because I currently work in retail
+and have spent much of my life doing so. Through the jobs I've had I have used good inventory systems and some terrible ones. But one thing that was shared between all of them is that they were much to complex and I never used 95% of the "features" in these systems. Obviously my IMS is lacking many features that you would need in a 100% practical system, but it works in a basic fashion, its easy to use, and it gets the job done. I plan on continuing this system and making more features as my skills improve.
+
+The system was built using JS, HTML, and CSS. As I have prior experience with these languages. Within the project I used things such as event.target.dataset.id to create unique ids for each item so the user is able to change or remove only certain items from the system. I also used local storage to maintain data even after page refreshes (in the real world this data would be stored in a database, and this is something that I do eventually plan on implementing with SQL and python). I made the website responsive as well, at least for screens bigger than roughly 700PX, which should cover almost all computers and even some tablets which could certianley use a system like this. I decided not to make it responvise for very small screens because i felt it would take away from the functionallity of the system. 
+
+Overall I was happy with how this system turned out. And I look forward to being able to continue improving it in the future as my skills allow
